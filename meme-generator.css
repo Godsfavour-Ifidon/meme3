@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.meme-generator{ 
+    position: relative;
+    justify-content: center;
+    background-color: rgb(107, 104, 104);
+    padding: 50px;
+    margin: 65px auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+#download-btn{
+    position: absolute;
+    top: 87%;
+    bottom: 0px;
+    right: 0px;
+    left: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 10px;
+    height: 30px;
+    background-color: yellow;
+    color: white;
+    cursor: pointer;
+}
+
+.inputs p{
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+
+#download-btn:hover{
+     background-color: blue;
+}
+
+#top-text, #bottom-text{
+     border-radius: 10px;
+     display: block;
+}
+
+:root {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+* {
+    font: inherit;
+}
+
+#meme-canvas {
+    width: 300px;
+}
+
+
+
+@media (min-width: 760px) {
+     .meme-generator{
+         display: flex;
+     }
+
+       .main-top{
+        margin-right: 30px;
+     }
+
+       .main-bottom{
+        margin-top: 60px;
+     }
+
+}
+
+
+@media (min-width: 1025px) {
+     .meme-generator{
+         display: flex;
+     }
+
+    .main-bottom .inputs{
+         display: flex;
+        
+     }
+
+     .main-top{
+        margin-right: 30px;
+     }
+
+     .main-bottom{
+        margin-top: 60px;
+     }
+
+  #top-text, #bottom-text{
+     display: block;
+     
+    }
+
+    .inputs p{
+      
+    }
+}
